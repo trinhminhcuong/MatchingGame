@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+
+        android:background="#c9c5c5">
+
+        <TextView
+            android:id="@+id/tvShowD301"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Chúc mừng, bạn đạt được 3 điểm!"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+            <Button
+                android:id="@+id/btnBackD301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quay về"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnPlayD301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chơi lại"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

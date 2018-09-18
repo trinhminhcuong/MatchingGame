@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageRank"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="7dp"
+        android:src="@drawable/first"/>
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="67dp"
+        android:text="16dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tvHighScore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="23dp"
+        android:text="Round 6"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+</RelativeLayout>

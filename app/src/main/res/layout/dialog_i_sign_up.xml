@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:background="@drawable/woodbackground">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edUserNameD10"
+            android:layout_width="250dp"
+            android:layout_marginLeft="25dp"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:hint="Tên tài khoản"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+        <EditText
+            android:id="@+id/edPasswordD10"
+            android:layout_width="250dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:lines="1"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+        <EditText
+            android:id="@+id/edPasswordD11"
+            android:layout_width="250dp"
+            android:layout_marginLeft="25dp"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+        <Button
+            android:id="@+id/btnSignUp10"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginBottom="20dp"
+            android:text="Đăng ký"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bamboo"
+    tools:context="com.example.cuong.trcxanh.Activities.II_Menu">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnPlay20"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Chơi game"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/btnRank20"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Xếp hạng"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnQuit20"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Thoát Game"/>
+    </LinearLayout>
+</RelativeLayout>

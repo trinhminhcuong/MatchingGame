@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bamboobg"
+    tools:context="com.example.cuong.trcxanh.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="107dp"
+        android:text="Nhấn để bắt đầu"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#c1ebc1"
+        android:id="@+id/tvStart"/>
+
+</RelativeLayout>
